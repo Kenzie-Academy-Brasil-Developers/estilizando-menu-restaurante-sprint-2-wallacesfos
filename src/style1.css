@@ -19,6 +19,7 @@ nav {
 h1{
     font-family: 'Supermercado One';
     font-size: 45px;
+    color: #5d4037;
 }
 
 /* Set the separator between the columns (the "column-rule") to be 2px dashed rosybrown. */
