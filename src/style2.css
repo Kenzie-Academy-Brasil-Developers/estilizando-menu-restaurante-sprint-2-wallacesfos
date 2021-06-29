@@ -36,9 +36,9 @@ dt {
 /* Make a comma appear after the name of each menu item (before the description) */
 
 dd {display: inline; margin: 0;}
+dt::after{content: ","; font-weight: bold; margin-rigth: 3px;}
 dd::after {content: " "; display: block; clear: both; margin-bottom: 15px;}
-dt::after{content: ", ㅤㅤ"; font-weight: bold; margin-rigth: 3px;}
-dd:before{content: "ㅤ"}
+
 .price {float: right; padding: 0 0 35px 20px;}
 
 /* Right-align the text of the address/footer */
